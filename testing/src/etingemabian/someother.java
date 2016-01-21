@@ -23,5 +23,9 @@ public class someother implements HumanBeing{
     {
         System.out.println("The human name is "+ this.name);
     }
+    public void error()
+    {
+        System.out.println("what did you add");
+    }
     
 }
