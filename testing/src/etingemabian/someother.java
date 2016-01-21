@@ -10,13 +10,18 @@ package etingemabian;
  *
  * @author mabian
  */
-public class someother {
-    public static void main(String[] args) {
-        System.out.println("something in here");
-        //here 
-        for(int i = 0; i <=2; i++)
-        {
-            System.out.println(i);
-        }
+public class someother implements HumanBeing{
+    private String name;
+
+    @Override
+    public String human_type(String type) {
+        this.name = type;
+        return type;
+        
     }
+    public void displayName()
+    {
+        System.out.println("The human name is "+ this.name);
+    }
+    
 }

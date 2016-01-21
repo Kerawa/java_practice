@@ -6,12 +6,15 @@
 
 package etingemabian;
 
+import com.sun.javafx.runtime.SystemProperties;
+
 /**
  *
  * @author mabian
  */
 public class helloworld {
     public static void main(String[] args) {
-        System.out.println("what is my own?");
+        SystemProperties s  =  new  SystemProperties();
+        
     }
 }
