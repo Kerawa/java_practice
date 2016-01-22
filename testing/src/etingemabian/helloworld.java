@@ -6,7 +6,6 @@
 
 package etingemabian;
 
-import com.sun.javafx.runtime.SystemProperties;
 
 /**
  *
@@ -14,7 +13,6 @@ import com.sun.javafx.runtime.SystemProperties;
  */
 public class helloworld {
     public static void main(String[] args) {
-        SystemProperties s  =  new  SystemProperties();
         System.out.println("am i really here?");
     }
 }
